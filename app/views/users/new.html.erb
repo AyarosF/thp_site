@@ -1,0 +1,10 @@
+Bienvenue dans la création d'utilisateurs !
+
+<form action = "/users" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"><br>
+  Renseigne ton prénom :
+  <input type="text" name="username"><br><br>
+  Décris-toi en quelques lignes : <br>
+  <textarea name="bio" rows="8" cols="80"></textarea><br><br>
+  <input type="submit" value="Envoyer le formulaire">
+</form>
