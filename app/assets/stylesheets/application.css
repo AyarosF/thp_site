@@ -22,3 +22,10 @@ body {
 
 }
 
+label {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  margin-top: 50px; 
+}
