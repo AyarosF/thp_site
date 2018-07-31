@@ -1,24 +1,25 @@
-# README
+# Notre application site avec backend - projet THP 31 juillet 2018
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Après avoir cloné le repo
 
-Things you may want to cover:
+- `bundle install without--production`
 
-* Ruby version
+- `rails db:migrate`
 
-* System dependencies
+## L'application
 
-* Configuration
+### Heroku
 
-* Database creation
+Vous trouverez l'application hébergée sur Heroku au lien suivant : https://site-thp.herokuapp.com/
 
-* Database initialization
+### Le projet
 
-* How to run the test suite
+Un petit site avec un formulaire à remplir (et une surprise sur la page d'accueil). Vous y trouverez :
 
-* Services (job queues, cache servers, search engines, etc.)
+- Une page d'accueil
+- Une page de création de l'utilisateur
+- Une page profil après avoir soumis un nouvel utilisateur
 
-* Deployment instructions
+## La team
 
-* ...
+Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI et Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:
