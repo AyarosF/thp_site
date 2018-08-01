@@ -2,7 +2,7 @@
 
 ## Après avoir cloné le repo
 
-- `bundle install without--production`
+- `bundle install --without production`
 
 - `rails db:migrate`
 
